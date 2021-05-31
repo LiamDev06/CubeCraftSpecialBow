@@ -1,0 +1,6 @@
+name: CubeCraftSpecialBow
+version: ${project.version}
+main: me.liamhbest.cubecraftspecialbow.CubeCraftSpecialBow
+api-version: 1.16
+authors: [ ay ]
+description: desc
