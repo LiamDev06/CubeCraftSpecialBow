@@ -1,6 +1,11 @@
 name: CubeCraftSpecialBow
-version: ${project.version}
-main: me.liamhbest.cubecraftspecialbow.CubeCraftSpecialBow
+version: BETA
+main: me.liamhbest.cubecraftspecialbow.SpecialBow
 api-version: 1.16
-authors: [ ay ]
-description: desc
+author: LiamHest
+description: CubeCraft translation team developer application project.
+
+commands:
+  specialbow:
+    aliases: [sb, sbow]
+    description: Get the special bow

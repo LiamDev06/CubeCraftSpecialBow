@@ -1,0 +1,27 @@
+# Enter delay to use bow in seconds
+Bow Delay: 3
+#
+# Hit Message
+Shooting Player Hit Message: "&aYou hit &b%player_hit% &awith your special bow!"
+Player Hit Hit Message: "&aYou got hit by &b%shooting_player% &athat was using a special bow!"
+Bow Inventory Open Message: "&d&lYou have been given the honor to access the special bow! Praise the bow!"
+Bow Given Message: "&bYou have been given the &6Special Bow&b!"
+You Received Bow From Player Message: "&bYou received the &6Special Bow&b from &a%player_received_from%&b!"
+You Gave The Bow Message: "&bYou gave the &6Special Bow &bto &a%player_gave_to%&b!"
+#
+# Customize the bow
+# The inventory drop enchantment is not counted in the enchantments list as that is added as default.
+bow:
+  name: "&6Special Bow"
+  lore:
+    - "&7This awesome bow has the power to"
+    - "&7mess with someone's inventory inventory!"
+    - "&7Hit them with the bow and make them drop"
+    - "&7one random item from their inventory!"
+    - ""
+    - "&b&lEFFECT: &7Inventory Drop"
+    - "&eShoot someone with the bow to active the"
+    - "&einventory drop effect which will drop &c1"
+    - "&eitem from the player you hit's inventory."
+    - ""
+    - "&6&lLEGENDARY BOW"
