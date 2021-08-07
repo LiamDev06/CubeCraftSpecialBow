@@ -33,14 +33,14 @@ public class SpecialBowGUI implements Listener {
         if (event.getWhoClicked() instanceof Player){
             if (event.getView().getTitle().equals("CubeCraft Special Bow")) {
                 if (event.getCurrentItem() == null) return;
-                if (event.getCurrentItem().getItemMeta() == null);
+                if (!event.getCurrentItem().hasItemMeta()) return;
                 Player player = (Player) event.getWhoClicked();
                 event.setCancelled(true);
 
                 if (event.getSlot() == 22){
                     // Click to get bow
 
-                    if (!(player.getInventory().firstEmpty() == -1)){
+                    if (player.getInventory().firstEmpty() != -1){
                         player.closeInventory();
                         player.updateInventory();
 

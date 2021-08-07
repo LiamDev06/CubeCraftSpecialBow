@@ -1,5 +1,3 @@
-# Enter delay to use bow in seconds
-Bow Delay: 3
 #
 # Hit Message
 Shooting Player Hit Message: "&aYou hit &b%player_hit% &awith your special bow!"
